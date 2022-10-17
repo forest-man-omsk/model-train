@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "model-train"
+version = "0.1.0"
+description = ""
+authors = ["RomanZorkin <zorkin.roman@gmail.com>"]
+readme = "README.md"
+packages = [{include = "model_train"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.11"
+req2toml = "^1.2.0"
+# Base ----------------------------------------
+matplotlib = ">=3.2.2"
+numpy = ">=1.18.5"
+opencv-python = ">=4.1.1"
+Pillow = ">=7.1.2"
+PyYAML = ">=5.3.1"
+requests = ">=2.23.0"
+scipy = ">=1.4.1"
+torch = ">=1.7.0"  # see https://pytorch.org/get-started/locally/ (recommended)
+torchvision = ">=0.8.1"
+tqdm = ">=4.64.0"
+# Logging -------------------------------------
+tensorboard = ">=2.4.1"
+# Plotting ------------------------------------
+pandas = ">=1.1.4"
+seaborn = ">=0.11.0"
+# Extras --------------------------------------
+thop = ">=0.1.1"  # FLOPs computation
+ipykernel = "^6.16.0"
+psutil = "^5.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
