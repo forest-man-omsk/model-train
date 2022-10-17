@@ -29,6 +29,8 @@ seaborn = ">=0.11.0"
 thop = ">=0.1.1"  # FLOPs computation
 ipykernel = "^6.16.0"
 psutil = "^5.9.2"
+sklearn = "^0.0"
+albumentations = "^1.3.0"
 
 
 [build-system]
