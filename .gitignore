@@ -132,3 +132,4 @@ dmypy.json
 *.JPG
 *.jpg
 datasets/*
+yolov5/
