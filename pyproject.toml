@@ -31,6 +31,7 @@ ipykernel = "^6.16.0"
 psutil = "^5.9.2"
 sklearn = "^0.0"
 albumentations = "^1.3.0"
+jupyter = "^1.0.0"
 
 
 [build-system]
