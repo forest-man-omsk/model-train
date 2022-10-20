@@ -133,3 +133,4 @@ dmypy.json
 *.jpg
 datasets/*
 yolov5/
+dataset/*
