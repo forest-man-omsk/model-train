@@ -131,6 +131,9 @@ dmypy.json
 # project
 *.JPG
 *.jpg
+*.zip
+augumentation/*
 datasets/*
 yolov5/
 dataset/*
+train/*
